@@ -6,6 +6,8 @@ A Spring Boot project demonstrating task scheduling using Java 17 and Maven. It 
 - Task Scheduler - Runs a task every 5 seconds.
 - Resilient Task Scheduler - Implements retry logic for failures.
 
+  Additionally, it includes a QuoteService that runs a scheduled task at 8:00 AM daily, logging a random motivational quote each morning.
+
 ## Technologies Used
 - Java 17
 - Spring Boot
